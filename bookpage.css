@@ -1,0 +1,16 @@
+body {
+    background-image: url(img/repeat-image.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+}
+.frame {
+    background-image: url(img/top-bg.png),
+                      url(img/bottom-bg.png),
+                      url(img/center-bg.png);
+    background-repeat: no-repeat,no-repeat,repeat-y;
+    background-position: top,bottom,center;
+    width: 500px;
+    margin: 50px;
+    padding: 70px 100px;
+    background-size: contain;
+}
